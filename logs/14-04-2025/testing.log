@@ -1,0 +1,752 @@
+Flip Test is used --- False
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Flip Test is used --- False
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm10_EFPN_NoBasedCLS_Focal_C3_256Cst100_8SBI_SAM(Adam)_ADV_Era1_OutSigmoid_1e7_boost500_UnFZ_model_best.pth
+Flip Test is used --- False
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Dataset loading time --- 8.501920223236084
+Inferencing time --- 13.376657724380493
+Inferencing time --- 17.494789600372314
+Inferencing time --- 22.83808922767639
+Inferencing time --- 28.193122148513794
+Inferencing time --- 33.5735239982605
+Inferencing time --- 38.961893796920776
+Inferencing time --- 44.36302399635315
+Inferencing time --- 49.783823013305664
+Inferencing time --- 55.215097188949585
+Inferencing time --- 60.65508794784546
+Inferencing time --- 66.11620092391968
+Inferencing time --- 71.58994936943054
+Inferencing time --- 77.07782053947449
+Inferencing time --- 82.58406496047974
+Inferencing time --- 88.10746908187866
+Inferencing time --- 93.64612364768982
+Inferencing time --- 99.19610905647278
+Inferencing time --- 104.7709755897522
+Inferencing time --- 110.600332736969
+Inferencing time --- 116.67633652687073
+Inferencing time --- 123.11383271217346
+Inferencing time --- 129.66397261619568
+Inferencing time --- 136.2515823841095
+Inferencing time --- 143.33298110961914
+Inferencing time --- 150.29396438598633
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Dataset loading time --- 9.542047023773193
+Inferencing time --- 13.952126741409302
+Inferencing time --- 18.4857120513916
+Inferencing time --- 25.176572561264038
+Inferencing time --- 32.32127571105957
+Inferencing time --- 39.67279291152954
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Dataset loading time --- 8.35788369178772
+Inferencing time --- 12.899142742156982
+Inferencing time --- 17.737223863601685
+Inferencing time --- 24.91907548904419
+Inferencing time --- 32.803467988967896
+Inferencing time --- 41.27990412712097
+Inferencing time --- 50.0656635761261
+Inferencing time --- 57.669183015823364
+Inferencing time --- 64.8487069606781
+Inferencing time --- 72.11227416992188
+Inferencing time --- 79.7567150592804
+Inferencing time --- 87.58079552650452
+Inferencing time --- 95.62188935279846
+Inferencing time --- 103.43422722816467
+Inferencing time --- 111.59523510932922
+Inferencing time --- 119.8768527507782
+Inferencing time --- 128.2327914237976
+Inferencing time --- 136.70894479751587
+Inferencing time --- 144.77490401268005
+Inferencing time --- 152.90925669670105
+Inferencing time --- 161.6842119693756
+Inferencing time --- 170.4704463481903
+Inferencing time --- 179.25663828849792
+Inferencing time --- 188.04383778572083
+Inferencing time --- 196.83002495765686
+Inferencing time --- 204.67364645004272
+Inferencing time --- 210.69823622703552
+Inferencing time --- 216.3244800567627
+Inferencing time --- 221.8949601650238
+Inferencing time --- 227.641615152359
+Inferencing time --- 233.66530919075012
+Inferencing time --- 239.81010723114014
+Inferencing time --- 245.99163174629211
+Inferencing time --- 252.15429306030273
+Inferencing time --- 258.31416869163513
+Inferencing time --- 264.55186772346497
+Inferencing time --- 270.6424491405487
+Inferencing time --- 276.64938735961914
+Inferencing time --- 282.67607617378235
+Inferencing time --- 288.7033076286316
+Inferencing time --- 294.916640996933
+Inferencing time --- 300.9879939556122
+Inferencing time --- 307.0394444465637
+Inferencing time --- 313.0782754421234
+Inferencing time --- 319.2093732357025
+Inferencing time --- 325.3447427749634
+Inferencing time --- 331.32733392715454
+Inferencing time --- 337.3812847137451
+Inferencing time --- 343.48584818840027
+Inferencing time --- 349.52278423309326
+Inferencing time --- 355.5406377315521
+Inferencing time --- 361.6349217891693
+Inferencing time --- 367.6747782230377
+Inferencing time --- 373.6581087112427
+Inferencing time --- 379.53211641311646
+Inferencing time --- 385.461788892746
+Inferencing time --- 391.4399468898773
+Inferencing time --- 397.38881754875183
+Inferencing time --- 403.4207820892334
+Inferencing time --- 409.3536608219147
+Inferencing time --- 415.27145648002625
+Inferencing time --- 421.1895408630371
+Inferencing time --- 427.19321727752686
+Inferencing time --- 433.24763202667236
+Inferencing time --- 439.2363085746765
+Inferencing time --- 445.27298378944397
+Inferencing time --- 451.0697546005249
+Inferencing time --- 456.8805773258209
+Inferencing time --- 462.63156247138977
+Inferencing time --- 468.3036835193634
+Inferencing time --- 473.95596623420715
+Inferencing time --- 479.57016110420227
+Inferencing time --- 485.26765847206116
+Inferencing time --- 490.9616997241974
+Inferencing time --- 496.5436820983887
+Inferencing time --- 502.10838770866394
+Inferencing time --- 507.6653621196747
+Inferencing time --- 513.232284784317
+Inferencing time --- 519.0850331783295
+Inferencing time --- 525.0823936462402
+Inferencing time --- 531.2901985645294
+Inferencing time --- 537.4909324645996
+Inferencing time --- 543.9253013134003
+Inferencing time --- 550.3546276092529
+Inferencing time --- 556.81946849823
+Inferencing time --- 563.5494644641876
+Inferencing time --- 570.3605451583862
+Inferencing time --- 577.1568417549133
+Inferencing time --- 583.9993703365326
+Inferencing time --- 590.9236590862274
+Inferencing time --- 597.8803539276123
+Inferencing time --- 604.484696149826
+Inferencing time --- 610.7393391132355
+Inferencing time --- 616.7908892631531
+Inferencing time --- 622.8257336616516
+Inferencing time --- 628.7601933479309
+Inferencing time --- 634.699497461319
+Inferencing time --- 640.6866552829742
+Inferencing time --- 646.4667046070099
+Inferencing time --- 652.1848285198212
+Inferencing time --- 657.8440239429474
+Inferencing time --- 663.4441912174225
+Inferencing time --- 669.0178129673004
+Inferencing time --- 674.5905413627625
+Inferencing time --- 680.1655948162079
+Inferencing time --- 685.7326092720032
+Inferencing time --- 691.3004629611969
+Inferencing time --- 696.8667457103729
+Inferencing time --- 702.433384180069
+Inferencing time --- 707.9953210353851
+Inferencing time --- 713.5612711906433
+Inferencing time --- 719.1199197769165
+Inferencing time --- 724.6809902191162
+Inferencing time --- 730.2400231361389
+Inferencing time --- 735.7938320636749
+Inferencing time --- 741.3477818965912
+Inferencing time --- 746.9011902809143
+Inferencing time --- 752.4525284767151
+Inferencing time --- 757.9941961765289
+Inferencing time --- 763.5403668880463
+Inferencing time --- 769.1049335002899
+Inferencing time --- 774.9172983169556
+Inferencing time --- 780.9683699607849
+Inferencing time --- 787.3589973449707
+Inferencing time --- 793.716769695282
+Inferencing time --- 800.2348065376282
+Inferencing time --- 806.6670534610748
+Inferencing time --- 812.6750433444977
+Inferencing time --- 818.4974303245544
+Inferencing time --- 824.3951766490936
+Inferencing time --- 830.1916530132294
+Inferencing time --- 835.9594848155975
+Inferencing time --- 841.749425649643
+Inferencing time --- 847.4465901851654
+Inferencing time --- 853.1872267723083
+Inferencing time --- 858.8358609676361
+Inferencing time --- 864.53449177742
+Inferencing time --- 870.1669301986694
+Inferencing time --- 875.8100810050964
+Inferencing time --- 881.4858090877533
+Inferencing time --- 887.1462922096252
+Inferencing time --- 892.7964587211609
+Inferencing time --- 898.3821589946747
+Inferencing time --- 903.9867238998413
+Inferencing time --- 909.6214969158173
+Inferencing time --- 915.5597891807556
+Inferencing time --- 921.5605714321136
+Inferencing time --- 927.784108877182
+Inferencing time --- 934.2801728248596
+Inferencing time --- 940.8256659507751
+Inferencing time --- 947.570868730545
+Inferencing time --- 954.2114222049713
+Inferencing time --- 960.7880554199219
+Inferencing time --- 967.3825235366821
+Inferencing time --- 973.8127763271332
+Inferencing time --- 980.4886717796326
+Inferencing time --- 987.2512316703796
+Inferencing time --- 994.0027463436127
+Inferencing time --- 1000.6914126873016
+Inferencing time --- 1006.5954477787018
+Inferencing time --- 1012.3364443778992
+Inferencing time --- 1017.910285949707
+Inferencing time --- 1023.4772539138794
+Inferencing time --- 1029.0406529903412
+Inferencing time --- 1034.5968010425568
+Inferencing time --- 1040.1539022922516
+Inferencing time --- 1045.7164657115936
+Inferencing time --- 1051.2947707176208
+Inferencing time --- 1057.1263990402222
+Inferencing time --- 1063.162626504898
+Inferencing time --- 1069.4273500442505
+Inferencing time --- 1075.7099475860596
+Inferencing time --- 1081.9834122657776
+Inferencing time --- 1088.3805449008942
+Inferencing time --- 1094.8135106563568
+Inferencing time --- 1101.191588640213
+Inferencing time --- 1107.6756074428558
+Inferencing time --- 1114.3069212436676
+Inferencing time --- 1120.8465588092804
+Inferencing time --- 1126.98868393898
+Inferencing time --- 1132.7680022716522
+Inferencing time --- 1138.3448102474213
+Inferencing time --- 1143.9140927791595
+Inferencing time --- 1149.474907875061
+Inferencing time --- 1155.0303194522858
+Inferencing time --- 1160.5844461917877
+Inferencing time --- 1166.1291370391846
+Inferencing time --- 1171.6661961078644
+Inferencing time --- 1177.200353384018
+Inferencing time --- 1182.7226793766022
+Inferencing time --- 1188.2519166469574
+Inferencing time --- 1193.7622611522675
+Inferencing time --- 1199.2868933677673
+Inferencing time --- 1204.7917032241821
+Inferencing time --- 1210.3012702465057
+Inferencing time --- 1215.8080124855042
+Inferencing time --- 1221.312540769577
+Inferencing time --- 1226.8172187805176
+Inferencing time --- 1232.3195865154266
+Inferencing time --- 1237.8247957229614
+Inferencing time --- 1243.3322637081146
+Inferencing time --- 1248.8389959335327
+Inferencing time --- 1254.3525178432465
+Inferencing time --- 1259.8690178394318
+Inferencing time --- 1265.3837587833405
+Inferencing time --- 1270.8946464061737
+Inferencing time --- 1276.4085891246796
+Inferencing time --- 1281.9216899871826
+Inferencing time --- 1287.4360256195068
+Inferencing time --- 1292.9465281963348
+Inferencing time --- 1298.460354089737
+Inferencing time --- 1303.97465133667
+Inferencing time --- 1309.4857568740845
+Inferencing time --- 1314.995512008667
+Inferencing time --- 1320.5099544525146
+Inferencing time --- 1326.0274894237518
+Inferencing time --- 1331.538744688034
+Inferencing time --- 1337.0513319969177
+Inferencing time --- 1342.5636925697327
+Inferencing time --- 1348.0775697231293
+Inferencing time --- 1353.60085439682
+Inferencing time --- 1359.1174223423004
+Inferencing time --- 1364.62885928154
+Inferencing time --- 1370.14319896698
+Inferencing time --- 1375.656056880951
+Inferencing time --- 1381.171455860138
+Inferencing time --- 1386.6978087425232
+Inferencing time --- 1392.2361459732056
+Inferencing time --- 1397.8458530902863
+Inferencing time --- 1403.4707262516022
+Inferencing time --- 1409.379028558731
+Inferencing time --- 1415.2768123149872
+Inferencing time --- 1421.2608394622803
+Inferencing time --- 1427.3985257148743
+Inferencing time --- 1433.5691585540771
+Inferencing time --- 1439.7854497432709
+Inferencing time --- 1446.0763828754425
+Inferencing time --- 1452.540735244751
+Inferencing time --- 1459.0608570575714
+Inferencing time --- 1465.7280230522156
+Inferencing time --- 1472.6733577251434
+Inferencing time --- 1479.4767298698425
+Inferencing time --- 1486.4092254638672
+Inferencing time --- 1493.3431811332703
+Inferencing time --- 1500.1492733955383
+Inferencing time --- 1507.3199062347412
+Inferencing time --- 1514.392650127411
+Inferencing time --- 1521.2552301883698
+Inferencing time --- 1528.2284095287323
+Inferencing time --- 1535.492752313614
+Inferencing time --- 1542.60684299469
+Inferencing time --- 1549.7339403629303
+Inferencing time --- 1557.111498594284
+Inferencing time --- 1564.714712381363
+Inferencing time --- 1572.2577311992645
+Inferencing time --- 1579.7196073532104
+Inferencing time --- 1587.4355783462524
+Inferencing time --- 1595.4876799583435
+Inferencing time --- 1603.4659128189087
+Inferencing time --- 1611.142123222351
+Inferencing time --- 1618.6084752082825
+Inferencing time --- 1626.1556606292725
+Inferencing time --- 1633.7444739341736
+Inferencing time --- 1641.225091934204
+Inferencing time --- 1648.8543736934662
+Inferencing time --- 1656.7118859291077
+Inferencing time --- 1665.122252702713
+Inferencing time --- 1673.5176939964294
+Inferencing time --- 1681.938268661499
+Inferencing time --- 1690.2821180820465
+Inferencing time --- 1698.3359603881836
+Inferencing time --- 1706.3720655441284
+Inferencing time --- 1714.738153219223
+Inferencing time --- 1723.105687379837
+Inferencing time --- 1731.0407860279083
+Inferencing time --- 1739.029126882553
+Inferencing time --- 1746.8241879940033
+Inferencing time --- 1754.7705450057983
+Inferencing time --- 1763.5564012527466
+Inferencing time --- 1772.3411028385162
+Inferencing time --- 1781.1243033409119
+Inferencing time --- 1789.6269726753235
+Inferencing time --- 1798.411020040512
+Inferencing time --- 1807.1950755119324
+Inferencing time --- 1815.980684041977
+Inferencing time --- 1824.4548387527466
+Inferencing time --- 1832.229845046997
+Inferencing time --- 1840.3806116580963
+Inferencing time --- 1848.9123585224152
+Inferencing time --- 1857.6959879398346
+Inferencing time --- 1866.4808213710785
+Inferencing time --- 1875.2654135227203
+Inferencing time --- 1884.0492205619812
+Inferencing time --- 1892.8345923423767
+Inferencing time --- 1901.618801355362
+Inferencing time --- 1910.4035286903381
+Inferencing time --- 1919.1890323162079
+Inferencing time --- 1927.971934556961
+Inferencing time --- 1936.7568128108978
+Inferencing time --- 1945.543487071991
+Inferencing time --- 1954.0124983787537
+Inferencing time --- 1962.7986886501312
+Inferencing time --- 1971.0070481300354
+Inferencing time --- 1979.4669437408447
+Inferencing time --- 1987.524557352066
+Inferencing time --- 1996.019873380661
+Inferencing time --- 2004.8043174743652
+Inferencing time --- 2013.5900695323944
+Inferencing time --- 2022.3749868869781
+Inferencing time --- 2030.9358174800873
+Inferencing time --- 2039.7205657958984
+Inferencing time --- 2048.5072782039642
+Inferencing time --- 2057.004144668579
+Inferencing time --- 2065.7897243499756
+Inferencing time --- 2074.574322938919
+Inferencing time --- 2083.358647108078
+Inferencing time --- 2092.145071744919
+Inferencing time --- 2100.9296038150787
+Inferencing time --- 2109.713866710663
+Inferencing time --- 2118.4996025562286
+Inferencing time --- 2127.2836151123047
+Inferencing time --- 2136.0692772865295
+Inferencing time --- 2144.8540709018707
+Inferencing time --- 2153.6393864154816
+Inferencing time --- 2162.424100637436
+Inferencing time --- 2171.20986700058
+Inferencing time --- 2179.9937603473663
+Inferencing time --- 2188.7778124809265
+Inferencing time --- 2197.5631408691406
+Inferencing time --- 2206.3475947380066
+Inferencing time --- 2215.1315224170685
+Inferencing time --- 2223.915739297867
+Inferencing time --- 2232.6998703479767
+Inferencing time --- 2241.4841821193695
+Inferencing time --- 2250.27139377594
+Inferencing time --- 2259.0576272010803
+Inferencing time --- 2267.8425455093384
+Inferencing time --- 2276.6262373924255
+Inferencing time --- 2285.410605430603
+Inferencing time --- 2294.19531083107
+Inferencing time --- 2302.979322195053
+Inferencing time --- 2311.7642588615417
+Inferencing time --- 2320.5514023303986
+Inferencing time --- 2329.3384561538696
+Inferencing time --- 2338.1226875782013
+Inferencing time --- 2346.9098947048187
+Inferencing time --- 2355.694536447525
+Inferencing time --- 2364.480346441269
+Inferencing time --- 2373.2654933929443
+Inferencing time --- 2382.0498926639557
+Inferencing time --- 2390.834059238434
+Inferencing time --- 2399.621208667755
+Inferencing time --- 2408.4068496227264
+Inferencing time --- 2417.1912620067596
+Inferencing time --- 2425.976274728775
+Inferencing time --- 2434.7618737220764
+Inferencing time --- 2443.548466682434
+Inferencing time --- 2452.335385799408
+Inferencing time --- 2461.118747472763
+Inferencing time --- 2469.90332531929
+Inferencing time --- 2478.6887221336365
+Inferencing time --- 2487.473324537277
+Inferencing time --- 2496.259155035019
+Inferencing time --- 2505.043247938156
+Inferencing time --- 2513.8305852413177
+Inferencing time --- 2522.614356994629
+Inferencing time --- 2531.399389266968
+Inferencing time --- 2540.18345952034
+Inferencing time --- 2548.9679403305054
+Inferencing time --- 2557.7538747787476
+Inferencing time --- 2566.53892326355
+Inferencing time --- 2575.323163509369
+Inferencing time --- 2584.107740163803
+Inferencing time --- 2592.8909368515015
+Inferencing time --- 2601.6762578487396
+Inferencing time --- 2610.461247444153
+Inferencing time --- 2619.244745492935
+Inferencing time --- 2628.0294392108917
+Inferencing time --- 2636.816120862961
+Inferencing time --- 2645.6003937721252
+Inferencing time --- 2654.385100364685
+Inferencing time --- 2663.168323993683
+Inferencing time --- 2671.95272397995
+Inferencing time --- 2680.7374505996704
+Inferencing time --- 2689.5229346752167
+Inferencing time --- 2698.306719303131
+Inferencing time --- 2707.091846227646
+Inferencing time --- 2715.8762941360474
+Inferencing time --- 2724.6618328094482
+Inferencing time --- 2733.451621055603
+Inferencing time --- 2742.238616704941
+Inferencing time --- 2751.0258836746216
+Inferencing time --- 2759.814148426056
+Inferencing time --- 2768.599533557892
+Inferencing time --- 2777.3853011131287
+Inferencing time --- 2786.170008420944
+Inferencing time --- 2794.955995321274
+Inferencing time --- 2803.741977930069
+Inferencing time --- 2812.5263822078705
+Inferencing time --- 2821.3124272823334
+Inferencing time --- 2830.096965074539
+Inferencing time --- 2838.883097887039
+Inferencing time --- 2847.667204141617
+Inferencing time --- 2856.4508287906647
+Inferencing time --- 2865.2367973327637
+Inferencing time --- 2874.0212411880493
+Inferencing time --- 2882.8057522773743
+Inferencing time --- 2891.5922281742096
+Inferencing time --- 2900.375866174698
+Inferencing time --- 2909.1607837677
+Inferencing time --- 2917.9472053050995
+Inferencing time --- 2926.730786561966
+Inferencing time --- 2935.5153200626373
+Inferencing time --- 2944.3022112846375
+Inferencing time --- 2953.0877561569214
+Inferencing time --- 2961.872274875641
+Inferencing time --- 2970.6584289073944
+Inferencing time --- 2979.443672657013
+Inferencing time --- 2988.229028224945
+Inferencing time --- 2997.0138120651245
+Inferencing time --- 3005.7976548671722
+Inferencing time --- 3014.58154797554
+Inferencing time --- 3023.365871667862
+Inferencing time --- 3032.1523671150208
+Inferencing time --- 3040.940526008606
+Inferencing time --- 3049.728044986725
+Inferencing time --- 3058.5136845111847
+Inferencing time --- 3067.2980260849
+Inferencing time --- 3076.082855463028
+Inferencing time --- 3084.868195772171
+Inferencing time --- 3093.6559767723083
+Inferencing time --- 3102.438865661621
+Inferencing time --- 3111.2230858802795
+Inferencing time --- 3120.010728120804
+Inferencing time --- 3128.796589612961
+Inferencing time --- 3137.5817477703094
+Inferencing time --- 3146.3678970336914
+Inferencing time --- 3155.154014825821
+Inferencing time --- 3163.938488006592
+Inferencing time --- 3172.7239594459534
+Inferencing time --- 3181.5083570480347
+Inferencing time --- 3190.296900987625
+Inferencing time --- 3199.0873169898987
+Inferencing time --- 3207.871449947357
+Inferencing time --- 3216.6570892333984
+Inferencing time --- 3225.4453253746033
+Inferencing time --- 3234.2300884723663
+Inferencing time --- 3243.0183639526367
+Inferencing time --- 3251.8056898117065
+Inferencing time --- 3260.5925240516663
+Inferencing time --- 3269.3769924640656
+Inferencing time --- 3278.161643743515
+Inferencing time --- 3286.944725751877
+Inferencing time --- 3295.729831933975
+Inferencing time --- 3304.5147094726562
+Inferencing time --- 3313.816958665848
+Inferencing time --- 3322.74915099144
+Inferencing time --- 3331.702613592148
+Inferencing time --- 3341.275202035904
+Inferencing time --- 3351.1266775131226
+Inferencing time --- 3359.9412755966187
+Inferencing time --- 3368.7280848026276
+Inferencing time --- 3377.782196044922
+Inferencing time --- 3386.5679104328156
+Inferencing time --- 3395.351586818695
+Inferencing time --- 3404.140313386917
+Inferencing time --- 3412.9242622852325
+Inferencing time --- 3421.941559314728
+Inferencing time --- 3430.9758718013763
+Inferencing time --- 3439.921736240387
+Inferencing time --- 3449.0529475212097
+Inferencing time --- 3459.2640035152435
+Inferencing time --- 3468.3780665397644
+Inferencing time --- 3479.0196647644043
+Inferencing time --- 3488.4794058799744
+Inferencing time --- 3498.0249931812286
+Inferencing time --- 3507.4270434379578
+Inferencing time --- 3516.212920188904
+Inferencing time --- 3524.9988334178925
+Inferencing time --- 3533.7843141555786
+Inferencing time --- 3542.7117395401
+Inferencing time --- 3551.4967036247253
+Inferencing time --- 3560.2843205928802
+Inferencing time --- 3569.0676231384277
+Inferencing time --- 3577.8514528274536
+Inferencing time --- 3586.6397984027863
+Inferencing time --- 3595.428300857544
+Inferencing time --- 3604.2138364315033
+Inferencing time --- 3613.184088945389
+Inferencing time --- 3621.968235731125
+Inferencing time --- 3631.109703540802
+Inferencing time --- 3639.898500919342
+Inferencing time --- 3648.68519616127
+Inferencing time --- 3657.9444432258606
+Inferencing time --- 3667.4823384284973
+Inferencing time --- 3677.1999435424805
+Inferencing time --- 3686.448000907898
+Inferencing time --- 3695.232588529587
+Inferencing time --- 3704.020186662674
+Inferencing time --- 3712.807847738266
+Inferencing time --- 3721.5921778678894
+Inferencing time --- 3730.515166282654
+Inferencing time --- 3739.652946472168
+Inferencing time --- 3748.4375491142273
+Inferencing time --- 3757.225427389145
+Inferencing time --- 3766.1669096946716
+Inferencing time --- 3775.3068537712097
+Inferencing time --- 3784.094468832016
+Inferencing time --- 3793.383089542389
+Inferencing time --- 3802.511580467224
+Inferencing time --- 3813.206411600113
+Inferencing time --- 3822.3790485858917
+Inferencing time --- 3831.1656770706177
+Inferencing time --- 3839.9533321857452
+Inferencing time --- 3848.7423901557922
+Inferencing time --- 3857.5305032730103
+Inferencing time --- 3866.320482969284
+Inferencing time --- 3875.107339859009
+Inferencing time --- 3883.8917961120605
+Inferencing time --- 3892.676157474518
+Inferencing time --- 3902.46151638031
+Inferencing time --- 3911.567996263504
+Inferencing time --- 3920.953827381134
+Inferencing time --- 3931.1419763565063
+Inferencing time --- 3940.827833175659
+Inferencing time --- 3950.7836780548096
+Inferencing time --- 3960.1842839717865
+Inferencing time --- 3970.3111584186554
+Inferencing time --- 3979.307907819748
+Inferencing time --- 3988.2566390037537
+Inferencing time --- 3997.4871962070465
+Inferencing time --- 4006.3485379219055
+Inferencing time --- 4015.8763394355774
+Inferencing time --- 4024.7180032730103
+Inferencing time --- 4033.7069816589355
+Inferencing time --- 4043.117028236389
+Inferencing time --- 4052.0265822410583
+Inferencing time --- 4060.8391983509064
+Inferencing time --- 4069.6272583007812
+Inferencing time --- 4078.7097623348236
+Inferencing time --- 4087.4951434135437
+Inferencing time --- 4097.377799510956
+Inferencing time --- 4107.266198396683
+Inferencing time --- 4116.770264625549
+Inferencing time --- 4126.2023203372955
+Inferencing time --- 4135.34517788887
+Inferencing time --- 4144.325560092926
+Inferencing time --- 4153.7136788368225
+Inferencing time --- 4164.179348945618
+Inferencing time --- 4173.487495183945
+Inferencing time --- 4182.275072097778
+Inferencing time --- 4191.062885522842
+Inferencing time --- 4199.989564180374
+Inferencing time --- 4208.921002864838
+Inferencing time --- 4217.70617723465
+Inferencing time --- 4227.700922727585
+Inferencing time --- 4237.615602970123
+Inferencing time --- 4247.540770769119
+Inferencing time --- 4256.898602485657
+Inferencing time --- 4266.399392604828
+Inferencing time --- 4275.922552585602
+Current ACC, AUC, AP, AR, mF1 for ['Deepfakes', 'FaceSwap'] --- ['real', 'fake'] --                 0.0 -- nan -- 99.99999999999999 -- 0.0 -- 0.0
+Flip Test is used --- True
+Turning on evaluation mode...
+Flip Test is used --- True
+Turning on evaluation mode...
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Flip Test is used --- True
+Turning on evaluation mode...
+Loading weight ... /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Using GPUs: [0]
+Using metric-base binary for evaluation!
+Video level evaluation mode: True
+Loaded configuration from: configs/efn4_fpn_sbi_adv.yaml
+Set random seed to: 317
+Running task: eval
+Flip Test enabled: True
+Evaluation mode activated (using dataset).
+Using 1 GPU(s): [0]
+Building model: PoseEfficientNet
+Loading pretrained weights from: /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Initiating evaluation using metric base: binary
+Video level evaluation: True
+Building dataset...
+Loaded configuration from: configs/efn4_fpn_sbi_adv.yaml
+Set random seed to: 317
+Running task: eval
+Flip Test enabled: True
+Evaluation mode activated (using dataset).
+Using 1 GPU(s): [0]
+Building model: PoseEfficientNet
+Using precision: torch.float64
+Loading pretrained weights from: /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Initiating evaluation using metric base: binary
+Video level evaluation: True
+Building dataset...
+Loaded configuration from: configs/efn4_fpn_sbi_adv.yaml
+Set random seed to: 317
+Running task: eval
+Flip Test enabled: True
+Evaluation mode activated (using dataset).
+Using 1 GPU(s): [0]
+Building model: PoseEfficientNet
+Using precision: torch.float64
+Loading pretrained weights from: /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Initiating evaluation using metric base: binary
+Video level evaluation: True
+Building dataset...
+Logger initialized.
+Loaded configuration from: configs/efn4_fpn_sbi_adv.yaml
+Set random seed to: 317
+Running task: eval
+Flip Test enabled: True
+Using 1 GPU(s): [0]
+Building model: PoseEfficientNet
+Using precision: torch.float64
+Loading pretrained weights from: /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth
+Initiating evaluation using metric base: binary
+Video level evaluation: True
+Building dataset...
+Dataset built with 10814 samples.
+Using DataLoader batch size: 16 (16 per GPU)
+DataLoader workers: 7, Pin memory: True
+Dataset setup time: 0.03s
+Starting evaluation loop...
+-----------------*** Evaluation Finished ***--------------------
