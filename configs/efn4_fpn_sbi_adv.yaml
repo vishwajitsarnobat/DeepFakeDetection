@@ -1,0 +1,101 @@
+TASK: EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cst100_8FXRayv2_SAM(Adam)_ADV_Era1_OutSigmoid_5e5_lblsm035_TEST_C40
+PRECISION: float64
+METRICS_BASE: binary
+SEED: 317
+DATA_RELOAD: False # Usually False for testing
+
+DATASET:
+  type: SBIFaceForensic # Should match the class name registered in datasets builder
+  COMPRESSION: c40 # Correct compression level for your data
+  IMAGE_SUFFIX: png
+  NUM_WORKERS: 4 # Lowered worker count, start low and increase if stable
+  PIN_MEMORY: True # Usually True if using GPU
+  IMAGE_SIZE: [384, 384]
+  HEATMAP_SIZE: [96, 96]
+  SIGMA: 2
+  ADAPTIVE_SIGMA: True
+  HEATMAP_TYPE: gaussian # Or whatever the model expects
+  SPLIT_IMAGE: False
+  DATA:
+    # ROOT here is less critical if defined within TEST, but keep consistent
+    # ROOT: /home/vishwajitsarnobat/Workspace/LAA-Net/FaceForensics++/processed
+    TYPE: frames # Subdirectory under split (e.g., test/frames/)
+    SAMPLES_PER_VIDEO:
+      ACTIVE: True # Active for video_level evaluation
+      # TRAIN/VAL numbers not needed for test-only config
+      TEST: 32 # Number of frames to sample per video during testing
+    TEST:
+      NAME: FF++ # Used by MasterDataset routing logic
+      ROOT: /home/vishwajitsarnobat/Workspace/LAA-Net/FaceForensics++/processed # CRITICAL: Path to parent of 'test'/'train' etc.
+      FROM_FILE: False # CRITICAL: Set to False to scan directories
+      FAKETYPE: [Deepfakes, FaceSwap, Original] # CRITICAL: Must match directory names exactly under ROOT/test/TYPE/
+      # ANNO_FILE: # Not used when FROM_FILE is False
+      LABEL_FOLDER: [real, fake] # Used by some loaders when FROM_FILE=False to map dirs to labels
+  TRANSFORM: # Minimal transforms for testing
+    geometry:
+      type: GeometryTransform # Ensure this pipeline type is registered
+      resize: [384, 384, 0] # Resize likely needed, but probability 0 for random resize
+      normalize: 0 # Done in final step
+      horizontal_flip: 0.0 # Controlled by TEST.flip_test
+      cropping: [0, 0] # No random crop
+      scale: [0, 0] # No random scale
+      rand_erasing: [0, 0] # No random erasing
+    color:
+      type: ColorJitterTransform # Ensure this pipeline type is registered
+      clahe: 0.0
+      colorjitter: 0.0
+      gaussianblur: 0.0
+      gaussnoise: 0.0
+      jpegcompression: [0.0, 40, 100] # Prob 0
+      rgbshift: 0.0
+      randomcontrast: 0.0
+      randomgamma: 0.0
+      randombrightness: 0.0
+      huesat: 0.0
+    normalize: # Final normalization values
+      mean: [0.5, 0.5, 0.5]
+      std: [0.5, 0.5, 0.5]
+  DEBUG: False
+  DYNAMIC_FXRAY: False # Should be False if not using dynamic masks during testing
+
+MODEL: # Ensure this matches the pretrained model architecture exactly
+  type: PoseEfficientNet
+  model_name: efficientnet-b4
+  num_layers: B4
+  include_top: False
+  include_hm_decoder: True
+  head_conv: 64
+  use_c2: False
+  use_c3: True
+  use_c4: True
+  use_c51: True
+  efpn: True
+  tfpn: False
+  se_layer: False
+  heads:
+    hm: 1
+    cls: 1
+    cstency: 256
+  INIT_WEIGHTS:
+    pretrained: True # Assumes ImageNet pretraining was used
+    advprop: True # Set based on how the checkpoint was trained
+
+# TRAIN section can be removed entirely for a clean test config, or kept if referenced elsewhere (but batch_size is now in TEST)
+# TRAIN:
+#   ...
+
+TEST:
+  gpus: [0] # GPU ID to use
+  subtask: 'eval' # Ensure this matches script logic ('eval' or 'test_img')
+  # test_file: '' # Not needed for eval mode using dataset loader
+  vis_hm: False # Set True to save heatmap visualizations (if model outputs 'hm')
+  threshold: 0.5 # Classification threshold for binary metrics (Real/Fake)
+  flip_test: True # Enable test-time horizontal flip augmentation
+  video_level: True # Aggregate results per video
+  batch_size: 4
+  pretrained: pretrained/PoseEfficientNet_EFN_hm10_EFPN_NoBasedCLS_Focal_C3_256Cst100_8SBI_SAM(Adam)_ADV_Era1_OutSigmoid_1e7_boost500_UnFZ_model_best.pth
+  # pretrained: /home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth # CRITICAL: Correct path to model weights
+
+# PREPROCESSING section is not used by test.py, can be removed
+# PREPROCESSING:
+#   ...

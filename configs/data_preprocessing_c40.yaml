@@ -1,0 +1,12 @@
+PREPROCESSING:
+  DATASET: FaceForensics
+  SPLIT: test
+  COMPRESSION: c40 # Or c23, c0, raw, etc.
+  ROOT: /home/vishwajitsarnobat/Workspace/LAA-Net/FaceForensics++
+  FAKETYPE: [Deepfakes, FaceSwap]
+  REALTYPE: [Original]
+  IMAGE_SUFFIX: png
+  DATA_TYPE: frames
+  facial_lm_pretrained: pretrained/shape_predictor_81_face_landmarks.dat
+  N_LANDMARKS: 81
+  DEBUG: False

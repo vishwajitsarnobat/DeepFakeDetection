@@ -1,0 +1,50 @@
+SEED: 317
+
+# --- Dataset Configuration ---
+DATASET:
+  type: HeatmapFaceForensic    # <-- IMPORTANT: Name of your Dataset class in datasets/__init__.py
+  IMAGE_SIZE: [256, 256]     # <-- IMPORTANT: Match model's expected input size
+  DATA:
+    TEST:
+      FROM_FILE: True          # Load test data list from JSON
+      # --- YOU MUST EDIT THIS ---
+      ANNO_FILE: '/home/vishwajitsarnobat/Workspace/LAA-Net/FaceForensics++/landmarks_aligned/test/json_data/landmarks_test_Deepfakes_FaceSwap_Original_81landmarks.json' # <-- *** REPLACE THIS ***
+      # Optional: Specify the base dir if ANNO_FILE uses relative paths
+      # ROOT: '/home/vishwajitsarnobat/Workspace/LAA-Net/FaceForensics++/landmarks_aligned/' # <-- Set if needed by dataset loader
+  # --- Test-Time Transforms (Usually just normalization) ---
+  TRANSFORM:
+    normalize:
+      mean: [0.485, 0.456, 0.406]
+      std: [0.229, 0.224, 0.225]
+
+# --- Model Configuration ---
+
+MODEL:
+  type: PoseResNet
+  num_layers: 50
+  block: Bottleneck
+  layers: [3, 4, 6, 3]
+  heads:
+    hm: 1
+    cls: 1
+    cstency: 256
+  head_conv: 64
+  dropout_prob: 0.5
+  fpn: True
+  cls_based_hm: False
+  use_c2: True
+  INIT_WEIGHTS:
+    pretrained: True
+    num_layers: 50
+
+# --- Testing Configuration ---
+TEST:
+  pretrained: '/home/vishwajitsarnobat/Workspace/LAA-Net/pretrained/PoseEfficientNet_EFN_hm100_EFPN_NoBasedCLS_Focal_C3_256Cstency100_32BI_SAM(Adam)_ADV_Erasing1_OutSigmoid_model_best.pth'
+  gpus: [0]                 # GPU ID(s) to use for testing
+  subtask: 'eval'           # Run evaluation on the dataset
+  video_level: True         # Aggregate results per video (or False for frame-level)
+  threshold: 0.5            # Threshold for classifying Fake vs Real
+  flip_test: False          # Use Test Time Augmentation (usually False for initial test)
+
+# --- Metrics Calculation ---
+METRICS_BASE: 'binary'      # Use standard binary classification metrics
