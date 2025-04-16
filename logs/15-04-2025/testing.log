@@ -151,3 +151,38 @@ DataLoader workers: 4, Pin memory: True
 Dataset setup time: 0.02s
 Starting evaluation loop...
 -----------------*** Evaluation Finished ***--------------------
+Main Logger initialized.
+Loaded config: configs/efn4_fpn_sbi_adv.yaml
+Set random seed: 317
+Task: eval, Flip Test: True
+Using 1 GPU(s): [0]
+Building model: PoseEfficientNet
+Using precision: torch.float64
+Loading weights: pretrained/PoseEfficientNet_EFN_hm10_EFPN_NoBasedCLS_Focal_C3_256Cst100_8SBI_SAM(Adam)_ADV_Era1_OutSigmoid_1e7_boost500_UnFZ_model_best.pth
+Initiating evaluation: metric_base=binary
+Video level: True
+Building full dataset...
+Full dataset samples: 10814
+Using subset: 108 samples (1.0%)
+Final dataset size for eval: 108
+DataLoader batch size: 4 (4 per GPU)
+DataLoader workers: 4, Pin memory: True
+Dataset setup time: 0.02s
+Starting evaluation loop...
+Calculating final metrics...
+Evaluation loop time: 63.84s
+Final predictions shape: (91, 1), Labels shape: (91, 1)
+Optimal threshold (max F1): 0.0469 (Max F1: 70.97%)
+------ FINAL METRICS (Optimal Threshold, Dataset: efn4_fpn_sbi_adv, Limit: 1.0%) ------
+ Optimal Threshold (Max F1): 0.0469
+ Accuracy (@Optimal Thr):   70.33%
+ AUC:                       75.24%
+ Avg Precision (AP):        75.68%
+ Recall (@Optimal Thr):     76.74%
+ F1 Score (@Optimal Thr):   70.97%
+----------------------------------------------------------------
+Saved predictions to: test_results/efn4_fpn_sbi_adv_preds_lim1.npy
+Saved labels to: test_results/efn4_fpn_sbi_adv_labels_lim1.npy
+Confusion Matrix (@Optimal Thr=0.05, Limit: 1.0%): TN=31 FP=17 FN=10 TP=33
+-----------------*** Evaluation Finished ***--------------------
+Script finished.
